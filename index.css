@@ -1,0 +1,41 @@
+.centrarInputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* min-height: 50vh; */
+  padding: 10px;
+}
+.centrarFiltro {
+  display: flex;
+}
+.centrarBotones {
+  margin: auto 0;
+}
+.mapa-container {
+  height: 500px;
+  margin: 10px 0;
+}
+/* Estilos para el formulario */
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+ion-label {
+  flex: 1;
+  margin-right: 10px;
+}
+
+ion-button {
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
